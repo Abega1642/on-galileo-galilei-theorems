@@ -18,8 +18,8 @@
 \maketitle
 
 \section*{Abstract}
-
-The purpose of this article is to explore some of \textit{Galileo Galilei} theorems in his famous book on dynamic mechanics \textit{Dialogues Concerning Two New Sciences}\cite{galilei_two_new_sciences} and do their demonstrations in a modern way.
+ 
+\qquad	This article examines several theorems presented by \textit{Galileo Galilei} in his seminal work on dynamics, \textit{Dialogues Concerning Two New Sciences}\cite{galilei_two_new_sciences}. While Galileo’s original demonstrations relied on classical geometric reasoning, this work aims to reinterpret and reconstruct his results using modern mathematical notation and techniques. By reformulating his theorems with contemporary methods, we provide a clearer, more accessible understanding of his groundbreaking contributions to the science of motion.
 
 
 
