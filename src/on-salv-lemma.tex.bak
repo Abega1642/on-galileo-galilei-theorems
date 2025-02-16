@@ -13,6 +13,10 @@ If a body falls freely along smooth planes inclined at any angle whatsoever, but
 
 Let \textit{ABC} be a rectangle triangle.\\
 
+Let $(AB)$ and $(AE)$ be inclined plane where the body may fall from the vertex $A$ to $B$ or $E$ according to the inclination of the plane.\\
+
+In what follows, let $\alpha$ be the angle of inclination of the plane $(AB)$ and $\beta$ that of $(AE)$. Let $v_1$ represents the speed of the body falling from $A$ to $B$ according to time $t_1$ and $v_2$ the speed of the body falling from $A$ to $E$ according to time $t_2$.
+
 \begin{figure}[h!]
     \centering
     $$
@@ -185,6 +189,9 @@ According to equation (1) we get :
 \[
 \frac{v_1}{v_2} = \frac{\sin{\alpha} }{\sin{\beta}} \times \frac{\sin{\beta} }{\sin{\alpha}} = 1
 \]
+\begin{equation}
+\therefore \qquad v_1 = v_2
+\end{equation}
+\hfill $\square$
 
-\[ \therefore \qquad v_1 = v_2 \]
 
