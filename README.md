@@ -12,5 +12,6 @@ If you want to see the LaTeX code of the article, you can see it in the [main.te
 
 - The _Salviati_ statement is in [on-salv-lemme.tex](src/on-salvi-tex)
 - The *Theorem III, Proposition III* is in [theoreme-iii_prop-iii.tex](src/theoreme-iii_prop-iii)
+- The reference file is in [ref.bib](src/ref.bib)
 
 > Author: Abegà Razafindratelo
