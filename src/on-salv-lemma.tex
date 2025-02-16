@@ -9,7 +9,7 @@ If a body falls freely along smooth planes inclined at any angle whatsoever, but
 
 \quad Galileo's demonstration of this theorem is very old and might be difficult to apprehend easily, i.e, the expressions and the notations are very old. But hereafter, I'm going to proove that theorem in a modern notation and modern expression which will make the demonstration easy to understand and to apprehend easily.\\	\\
 
-\underline{\textit{Proof.}}
+\underline{\textit{Proof.}}\newline
 
 Let \textit{ABC} be a rectangle triangle.\\
 
@@ -57,8 +57,8 @@ As we know :
 \[
 \begin{cases}
 
-sin(\alpha) = \frac{h}{x_1} \\
-sin(\beta) = \frac{h}{x_2}
+\sin{\alpha} = \frac{h}{x_1} \\
+\sin{\beta} = \frac{h}{x_2}
 
 \end{cases}
 \]
@@ -67,8 +67,8 @@ sin(\beta) = \frac{h}{x_2}
 That gives us :
 \[
 \begin{cases}
-h = x_1sin(\alpha)\\
-h = x_2sin(\beta)
+h = x_1\sin{\alpha}\\
+h = x_2\sin{\beta}
 \end{cases}
 \]
 As we know $  x_1 = \frac{1}{2}\cdot a_1\cdot t_1^{2}	$ where $ a_1 $ is the acceleration on the plane $ AB $, and $ t_1 $ the time required to travers it; and $ x_2 = \frac{1}{2}\cdot a_2\cdot t_2^{2} $. where $ a_2 $ the acceleration on the plane $ AE $, and $ t_2 $ the time required to travers that plane. \\
@@ -117,3 +117,74 @@ Now :
     \caption{Falling body on the inclined plane}
     \label{fig:triangle_ABC}
 \end{figure}
+\newline
+So, as we have : $a_i = g \sin{\phi}$, we have :
+\[
+\begin{cases}
+x_1 = \frac{1}{2} a_1 t_1^{2}
+
+=\frac{1}{2}  g t_1^{2} \sin{\alpha} \\
+
+x_2 = \frac{1}{2}  a_2 t_2^{2}
+
+=\frac{1}{2} g t_2^{2} \sin{\beta} \\
+\end{cases}
+\]
+
+\[
+\Longrightarrow
+\begin{cases}
+h = \left(
+\frac{1}{2} g t_1^{2} \sin{\alpha}
+\right)\cdot \sin{\alpha}
+
+= \frac{1}{2} gt_1^{2} \sin^{2}{\alpha}	\\
+
+h = \left(
+\frac{1}{2} g t_2^{2} \sin{\beta}
+\right)\cdot \sin{\beta}
+
+= \frac{1}{2}  g t_2^{2} \sin^{2}{\beta}	\\
+\end{cases}
+\]
+
+\[
+`\Longrightarrow \quad
+\frac{1}{2} g t_1^{2} \sin^{2}{\alpha} = \frac{1}{2}  g t_2^{2} \sin^{2}{\beta}	\\
+\]
+\[
+\Longleftrightarrow \quad	 t_1^{2} \sin^{2}{\alpha} = t_2^{2} \sin^{2}{\beta} \\
+\]
+\[
+\Longleftrightarrow \quad	t_1 \sin{\alpha} = t_2 \sin{\beta}	\\
+\]
+because time and distance (since $t$ and $h$ are both positive)
+\begin{equation}
+\Longleftrightarrow \quad	\frac{t_1}{t_2} = \frac{\sin{\beta}}{\sin{\alpha}}
+\end{equation}
+
+Now, in the other hand, the speeds of the body at the bottoms of each inclined plane is given by :
+\[
+\begin{cases}
+v_1 = a_1t_1 \\
+v_2 = a_2t_2 
+\end{cases} \\
+\Longrightarrow	\qquad
+\begin{cases}
+v_1 = g  t_1 \sin{\alpha} \\
+v_2 = g  t_2 \sin{\beta}
+\end{cases}
+\]
+Now, seing that each term of those equation are not null, by dividing term by term we have :
+\[
+\Longrightarrow	\qquad
+\frac{v_1}{v_2} = \frac{g t_1 \sin{\alpha} }{g t_2 \sin{\beta}} = \frac{t_1 \sin{\alpha}}{t_2 \sin{\beta}}
+\]
+
+According to equation (1) we get :
+\[
+\frac{v_1}{v_2} = \frac{\sin{\alpha} }{\sin{\beta}} \times \frac{\sin{\beta} }{\sin{\alpha}} = 1
+\]
+
+\[ \therefore \qquad v_1 = v_2 \]
+

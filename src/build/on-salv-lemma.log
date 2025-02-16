@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.2.12)  16 FEB 2025 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.2.12)  16 FEB 2025 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -827,7 +827,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.12 \underline{\textit{Proof.}}
-                                
+                                \newline
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -887,14 +887,48 @@ Overfull \hbox (21.62764pt too wide) in paragraph at lines 14--15
  []
 
 
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \begin{figure}
+                   [h!]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \begin{figure}[
+                    h!]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--18
+ [] 
+ []
+
+
 ! LaTeX Error: Environment tikzpicture undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 \begin{tikzpicture}
-                        
+l.19 	\begin{tikzpicture}
+                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -902,7 +936,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.17 
+l.20 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -910,7 +944,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.17 
+l.20 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -921,13 +955,13 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \tex_par:D 
-l.17 
+l.20 
      
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 ! Undefined control sequence.
-l.18     \tkzDefPoints
+l.21     \tkzDefPoints
                       {0/0/C, 4/0/B, 0/3/A}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -942,7 +976,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18     \tkzDefPoints{0
+l.21     \tkzDefPoints{0
                         /0/C, 4/0/B, 0/3/A}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -965,7 +999,7 @@ Missing character: There is no 3 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no A in font nullfont!
 ! Undefined control sequence.
-l.19     \tkzDefMidPoint
+l.22     \tkzDefMidPoint
                         (B,C)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -979,7 +1013,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.20     \tkzGetPoint
+l.23     \tkzGetPoint
                      {E}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -988,13 +1022,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no E in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 18--21
-[]
- []
-
 ! Undefined control sequence.
-l.22     \tkzDrawPolygon
+l.25     \tkzDrawPolygon
                         (A,B,C)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1009,7 +1038,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22     \tkzDrawPolygon(
+l.25     \tkzDrawPolygon(
                          A,B,C)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1021,13 +1050,8 @@ Missing character: There is no B in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 22--23
-[] 
- []
-
 ! Undefined control sequence.
-l.24     \tkzDrawSegment
+l.27     \tkzDrawSegment
                         (A,E)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1042,7 +1066,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24     \tkzDrawSegment(
+l.27     \tkzDrawSegment(
                          A,E)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1052,13 +1076,8 @@ Missing character: There is no A in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no ) in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 24--25
-[] 
- []
-
 ! Undefined control sequence.
-l.26     \tkzLabelPoints
+l.29     \tkzLabelPoints
                         [below](C,B,E)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1073,7 +1092,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26     \tkzLabelPoints[
+l.29     \tkzLabelPoints[
                          below](C,B,E)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1093,7 +1112,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.27     \tkzLabelPoints
+l.30     \tkzLabelPoints
                         [left](A)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1110,13 +1129,8 @@ Missing character: There is no ] in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no ) in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 26--28
-[]
- []
-
 ! Undefined control sequence.
-l.29     \tkzMarkRightAngle
+l.32     \tkzMarkRightAngle
                            (A,C,B)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1131,7 +1145,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29     \tkzMarkRightAngle(
+l.32     \tkzMarkRightAngle(
                             A,C,B)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1143,13 +1157,8 @@ Missing character: There is no C in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no ) in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 29--30
-[] 
- []
-
 ! Undefined control sequence.
-l.31     \tkzMarkAngle
+l.34     \tkzMarkAngle
                       [size=0.6](A,B,C)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1164,7 +1173,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31     \tkzMarkAngle[
+l.34     \tkzMarkAngle[
                        size=0.6](A,B,C)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1187,7 +1196,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.32     \tkzLabelAngle
+l.35     \tkzLabelAngle
                        [pos=1.2](A,B,C){$\alpha$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1212,17 +1221,12 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 31--33
-[]
- []
-
-
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 31--33
-\OML/cmm/m/it/10 $ 
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 34--36
+ \OML/cmm/m/it/10 $ 
  []
 
 ! Undefined control sequence.
-l.34     \tkzMarkAngle
+l.37     \tkzMarkAngle
                       [size=0.6](A,E,C)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1237,7 +1241,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34     \tkzMarkAngle[
+l.37     \tkzMarkAngle[
                        size=0.6](A,E,C)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1260,7 +1264,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.35     \tkzLabelAngle
+l.38     \tkzLabelAngle
                        [pos=1.2](A,E,C){$\beta$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1285,13 +1289,8 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 34--36
-[]
- []
-
-
-Overfull \hbox (6.18402pt too wide) in paragraph at lines 34--36
-\OML/cmm/m/it/10 ^^L$ 
+Overfull \hbox (6.18402pt too wide) in paragraph at lines 37--39
+ \OML/cmm/m/it/10 ^^L$ 
  []
 
 
@@ -1301,17 +1300,83 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \end{tikzpicture}
-                      
+l.40 	\end{tikzpicture}
+                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41     $
+          $
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 41--41
+[] 
+ []
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42     \caption
+                 {Inclined plane}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.44 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.44 \end{figure}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Overfull \hbox (62.15596pt too wide) detected at line 44
+[][]
+ []
+
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.37 \end{tikzpicture}
-                      
+l.44 \end{figure}
+                 
 Things are pretty mixed up, but I think the worst is over.
 
 
@@ -1321,40 +1386,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 $
-      $
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 38--38
-[] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.39 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.39 
-     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 L
+l.47 L
       et us lay down :
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1373,12 +1405,12 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 40--41
+Overfull \hbox (20.0pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (124.88275pt too wide) detected at line 47
+Overfull \hbox (124.88275pt too wide) detected at line 54
 [] \OML/cmm/m/it/10 C \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 h[] AB \OT1/cmr/m/n/10
  = \OML/cmm/m/it/10 x[][] AE \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[]\OT1/cmr/m/n
 /10 ;
@@ -1391,7 +1423,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 A
+l.56 A
       s we know :
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1406,7 +1438,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 49--50
+Overfull \hbox (20.0pt too wide) in paragraph at lines 56--57
 []
  []
 
@@ -1414,7 +1446,7 @@ Runaway argument?
 ! Paragraph ended before \cases  was complete.
 <to be read again> 
                    \par 
-l.52 
+l.59 
      
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1423,7 +1455,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.52 
+l.59 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1431,7 +1463,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.52 
+l.59 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1442,7 +1474,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \tex_par:D 
-l.52 
+l.59 
      
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -1454,7 +1486,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 s
+l.60 s
       in(\alpha) = \frac{h}{x_1} \\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1466,7 +1498,7 @@ Missing character: There is no ( in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.53 sin(\alpha
+l.60 sin(\alpha
                ) = \frac{h}{x_1} \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1474,28 +1506,28 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.55 
+l.62 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (40.87845pt too wide) in paragraph at lines 53--55
+Overfull \hbox (40.87845pt too wide) in paragraph at lines 60--62
 []$\OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) =
  []
 
 
-Overfull \hbox (10.83755pt too wide) in paragraph at lines 53--55
+Overfull \hbox (10.83755pt too wide) in paragraph at lines 60--62
 [][] 
  []
 
 
-Overfull \hbox (38.65231pt too wide) in paragraph at lines 53--55
+Overfull \hbox (38.65231pt too wide) in paragraph at lines 60--62
 \OML/cmm/m/it/10 sin\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^L\OT1/cmr/m/n/10 ) =
  []
 
 
-Overfull \hbox (10.83755pt too wide) in paragraph at lines 53--55
+Overfull \hbox (10.83755pt too wide) in paragraph at lines 60--62
 []$ 
  []
 
@@ -1506,7 +1538,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \end{cases}
+l.63 \end{cases}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1515,7 +1547,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.56 \end{cases}
+l.63 \end{cases}
                 
 Things are pretty mixed up, but I think the worst is over.
 
@@ -1526,7 +1558,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \]
+l.64 \]
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1539,7 +1571,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 T
+l.67 T
       hat gives us :
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1557,12 +1589,12 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 60--61
+Overfull \hbox (20.0pt too wide) in paragraph at lines 67--68
 []
  []
 
 
-Overfull \hbox (122.90266pt too wide) detected at line 66
+Overfull \hbox (122.90266pt too wide) detected at line 73
 [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[]sin\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
 \OT1/cmr/m/n/10 )[] \OML/cmm/m/it/10 h \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[]si
 n\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^L\OT1/cmr/m/n/10 )
@@ -1712,72 +1744,72 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.75691pt too wide) in paragraph at lines 66--68
+Overfull \hbox (20.75691pt too wide) in paragraph at lines 73--75
    $\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (9.16391pt too wide) in paragraph at lines 66--68
+Overfull \hbox (9.16391pt too wide) in paragraph at lines 73--75
 [] \OMS/cmsy/m/n/10 ^^A
  []
 
 
-Overfull \hbox (12.5498pt too wide) in paragraph at lines 66--68
+Overfull \hbox (12.5498pt too wide) in paragraph at lines 73--75
 \OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 ^^A
  []
 
 
-Overfull \hbox (8.09724pt too wide) in paragraph at lines 66--68
+Overfull \hbox (8.09724pt too wide) in paragraph at lines 73--75
 \OML/cmm/m/it/10 t[]$
  []
 
 
-Overfull \hbox (9.77202pt too wide) in paragraph at lines 66--68
+Overfull \hbox (9.77202pt too wide) in paragraph at lines 73--75
 \OML/cmm/m/it/10 a[]$
  []
 
 
-Overfull \hbox (15.58682pt too wide) in paragraph at lines 66--68
+Overfull \hbox (15.58682pt too wide) in paragraph at lines 73--75
 \OML/cmm/m/it/10 AB$
  []
 
 
-Overfull \hbox (8.09724pt too wide) in paragraph at lines 66--68
+Overfull \hbox (8.09724pt too wide) in paragraph at lines 73--75
 \OML/cmm/m/it/10 t[]$
  []
 
 
-Overfull \hbox (20.75691pt too wide) in paragraph at lines 66--68
+Overfull \hbox (20.75691pt too wide) in paragraph at lines 73--75
 \OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (9.16391pt too wide) in paragraph at lines 66--68
+Overfull \hbox (9.16391pt too wide) in paragraph at lines 73--75
 [] \OMS/cmsy/m/n/10 ^^A
  []
 
 
-Overfull \hbox (12.5498pt too wide) in paragraph at lines 66--68
+Overfull \hbox (12.5498pt too wide) in paragraph at lines 73--75
 \OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 ^^A
  []
 
 
-Overfull \hbox (8.09724pt too wide) in paragraph at lines 66--68
+Overfull \hbox (8.09724pt too wide) in paragraph at lines 73--75
 \OML/cmm/m/it/10 t[]$
  []
 
 
-Overfull \hbox (9.77202pt too wide) in paragraph at lines 66--68
+Overfull \hbox (9.77202pt too wide) in paragraph at lines 73--75
 \OML/cmm/m/it/10 a[]$
  []
 
 
-Overfull \hbox (15.45833pt too wide) in paragraph at lines 66--68
+Overfull \hbox (15.45833pt too wide) in paragraph at lines 73--75
 \OML/cmm/m/it/10 AE$
  []
 
 
-Overfull \hbox (8.09724pt too wide) in paragraph at lines 66--68
+Overfull \hbox (8.09724pt too wide) in paragraph at lines 73--75
 \OML/cmm/m/it/10 t[]$
  []
 
@@ -1788,7 +1820,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 N
+l.76 N
       ow :
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1798,8 +1830,25 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 69--70
-[]
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \begin{figure}
+                   [h!]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 76--79
+ [] 
  []
 
 
@@ -1809,8 +1858,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \begin{tikzpicture}
-                        
+l.80 	\begin{tikzpicture}
+                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1818,7 +1867,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.72 
+l.81 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1826,7 +1875,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.72 
+l.81 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1837,13 +1886,13 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \tex_par:D 
-l.72 
+l.81 
      
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 ! Undefined control sequence.
-l.73     \tkzDefPoints
+l.82     \tkzDefPoints
                       {0/0/C, 4/0/B, 0/3/A, 2/1.95/O}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1858,7 +1907,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73     \tkzDefPoints{0
+l.82     \tkzDefPoints{0
                         /0/C, 4/0/B, 0/3/A, 2/1.95/O}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1890,7 +1939,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no O in font nullfont!
 ! Undefined control sequence.
-l.74     \tkzDefMidPoint
+l.83     \tkzDefMidPoint
                         (B,C)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1904,7 +1953,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.75     \tkzGetPoint
+l.84     \tkzGetPoint
                      {E}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1913,13 +1962,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no E in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 73--76
-[]
- []
-
 ! Undefined control sequence.
-l.78     \tkzDrawPolygon
+l.87     \tkzDrawPolygon
                         (A,B,C)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1934,7 +1978,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78     \tkzDrawPolygon(
+l.87     \tkzDrawPolygon(
                          A,B,C)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1946,13 +1990,8 @@ Missing character: There is no B in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 78--79
-[] 
- []
-
 ! Undefined control sequence.
-l.80     \tkzDrawSegment
+l.89     \tkzDrawSegment
                         (A,E)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1967,7 +2006,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80     \tkzDrawSegment(
+l.89     \tkzDrawSegment(
                          A,E)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1977,13 +2016,8 @@ Missing character: There is no A in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no ) in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 80--81
-[] 
- []
-
 ! Undefined control sequence.
-l.82     \tkzLabelPoints
+l.91     \tkzLabelPoints
                         [below](C,B,E)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1998,7 +2032,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82     \tkzLabelPoints[
+l.91     \tkzLabelPoints[
                          below](C,B,E)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2018,7 +2052,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.83     \tkzLabelPoints
+l.92     \tkzLabelPoints
                         [left](A)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2035,13 +2069,8 @@ Missing character: There is no ] in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no ) in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 82--84
-[]
- []
-
 ! Undefined control sequence.
-l.85     \tkzMarkRightAngle
+l.94     \tkzMarkRightAngle
                            (A,C,B)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2056,7 +2085,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85     \tkzMarkRightAngle(
+l.94     \tkzMarkRightAngle(
                             A,C,B)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2068,14 +2097,9 @@ Missing character: There is no C in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no ) in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 85--86
-[] 
- []
-
 ! Undefined control sequence.
-l.88 	\draw
-           [->] (2,1.95) -- (3,1.18) node[below, above] {$\vec{a_i}$};
+l.97 	\draw
+           [->] (2,1.95) -- (3,1.14) node[below, above] {$\vec{a_i}$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2089,8 +2113,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 	\draw[
-            ->] (2,1.95) -- (3,1.18) node[below, above] {$\vec{a_i}$};
+l.97 	\draw[
+            ->] (2,1.95) -- (3,1.14) node[below, above] {$\vec{a_i}$};
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2114,7 +2138,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 8 in font nullfont!
+Missing character: There is no 4 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -2135,7 +2159,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.89 	\draw
+l.98 	\draw
            [->] (2,1.95) -- (2,0.5) node[below, right] {$\vec{g}$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2183,7 +2207,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.90 	\draw
+l.99 	\draw
            	(1,0.74)	--	(3, 3.1);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2210,23 +2234,18 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 88--91
-[]
+Overfull \hbox (8.61517pt too wide) in paragraph at lines 97--100
+ []$ 
  []
 
 
-Overfull \hbox (8.61517pt too wide) in paragraph at lines 88--91
-[]$
- []
-
-
-Overfull \hbox (5.12846pt too wide) in paragraph at lines 88--91
-[]$
+Overfull \hbox (5.12846pt too wide) in paragraph at lines 97--100
+ []$ 
  []
 
 ! Undefined control sequence.
-l.93 	\draw
-           	(2,3)	--	(2,0.6);
+l.102 	\draw
+            	(2,3)	--	(2,0.6);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2240,8 +2259,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 	\draw	(
-             2,3)	--	(2,0.6);
+l.102 	\draw	(
+              2,3)	--	(2,0.6);
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2260,14 +2279,9 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 93--94
-[]
- []
-
 ! Undefined control sequence.
-l.95 	\draw
-           [thick] (1.5, 1) arc[start angle=-120,end angle=-40,radius=0.8];
+l.104 	\draw
+            [thick] (1.5, 1.3) arc[start angle=-150,end angle=-85,radius=0.5];
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2281,8 +2295,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 	\draw[
-            thick] (1.5, 1) arc[start angle=-120,end angle=-40,radius=0.8];
+l.104 	\draw[
+             thick] (1.5, 1.3) arc[start angle=-150,end angle=-85,radius=0.5];
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2299,6 +2313,8 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -2317,7 +2333,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2330,8 +2346,8 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -2342,12 +2358,12 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 8 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.96 	\node
-            at (2.3,1) {$\phi$};
+l.105 	\node
+             at (1.7,0.8) {$\phi$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2357,26 +2373,23 @@ and I'll forget about whatever was undefined.
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ( in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no , in font nullfont!
 Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 95--97
-[]
- []
-
-
-Overfull \hbox (5.95834pt too wide) in paragraph at lines 95--97
-\OML/cmm/m/it/10 ^^^$ 
+Overfull \hbox (5.95834pt too wide) in paragraph at lines 104--106
+ \OML/cmm/m/it/10 ^^^$ 
  []
 
 ! Undefined control sequence.
-l.98     \tkzMarkAngle
-                      [size=0.6](A,B,C)
+l.107     \tkzMarkAngle
+                       [size=0.6](A,B,C)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2390,8 +2403,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98     \tkzMarkAngle[
-                       size=0.6](A,B,C)
+l.107     \tkzMarkAngle[
+                        size=0.6](A,B,C)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2413,8 +2426,8 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.99     \tkzLabelAngle
-                       [pos=1.2](A,B,C){$\alpha$}
+l.108     \tkzLabelAngle
+                        [pos=0.9](A,B,C){$\alpha$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2426,9 +2439,9 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no A in font nullfont!
@@ -2438,7 +2451,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.100     \tkzMarkAngle
+l.109     \tkzMarkAngle
                        [size=0.6](A,E,C)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2464,8 +2477,8 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.101     \tkzLabelAngle
-                        [pos=1.2](A,E,C){$\beta$}
+l.110     \tkzLabelAngle
+                        [pos=0.9](A,E,C){$\beta$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2477,9 +2490,9 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no A in font nullfont!
@@ -2489,22 +2502,17 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 98--102
-[]
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 107--111
+ \OML/cmm/m/it/10 $ 
  []
 
 
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 98--102
-\OML/cmm/m/it/10 $
- []
-
-
-Overfull \hbox (6.18402pt too wide) in paragraph at lines 98--102
-\OML/cmm/m/it/10 ^^L$ 
+Overfull \hbox (6.18402pt too wide) in paragraph at lines 107--111
+ \OML/cmm/m/it/10 ^^L$ 
  []
 
 ! Undefined control sequence.
-l.104     \node
+l.113     \node
                [draw, circle, minimum size=20pt] at (2, 1.95) {};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2519,7 +2527,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104     \node[
+l.113     \node[
                 draw, circle, minimum size=20pt] at (2, 1.95) {};
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2566,29 +2574,17 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 104--105
-[]
- []
-
-
 ! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 \end{tikzpicture}
-                       
+l.115 	\end{tikzpicture}
+                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.106 \end{tikzpicture}
-                       
-Things are pretty mixed up, but I think the worst is over.
 
 
 ! LaTeX Error: Missing \begin{document}.
@@ -2597,15 +2593,567 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 $
-       $
+l.116 	$
+        $
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 107--107
+Overfull \hbox (20.0pt too wide) in paragraph at lines 116--116
 [] 
  []
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117     \caption
+                  {Falling body on the inclined plane}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.119 \end{figure}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.119 \end{figure}
+                  
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Overfull \hbox (138.94687pt too wide) detected at line 119
+[][]
+ []
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.119 \end{figure}
+                  
+Things are pretty mixed up, but I think the worst is over.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (19.17068pt too wide) in paragraph at lines 119--122
+\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.99959pt too wide) in paragraph at lines 119--122
+\OML/cmm/m/it/10 gsin\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^^\OT1/cmr/m/n/10 )$
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.125 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.125 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.125 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Overfull \hbox (56.67053pt too wide) detected at line 125
+[][] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 a[]t[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 =
+       \frac{1}{2}  g  sin(\alpha) t_1^{2} \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.126 =\frac{1}{2}
+                    g  sin(\alpha) t_1^{2} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \over #2}
+                                               
+l.126 =\frac{1}{2}
+                    g  sin(\alpha) t_1^{2} \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.127 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (60.45798pt too wide) in paragraph at lines 126--127
+[]$[]$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 x
+       _2 = \frac{1}{2}  a_2 t_2^{2}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no x in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.128 x_
+        2 = \frac{1}{2}  a_2 t_2^{2}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.129 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (35.04164pt too wide) in paragraph at lines 128--129
+[]$[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (24.25539pt too wide) in paragraph at lines 128--129
+[]\OML/cmm/m/it/10 a[]t[]$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 =
+       \frac{1}{2} g sin(\beta) t_2^{2} \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.130 =\frac{1}{2}
+                   g sin(\beta) t_2^{2} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \over #2}
+                                               
+l.130 =\frac{1}{2}
+                   g sin(\beta) t_2^{2} \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{cases}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 \end{cases}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.131 \end{cases}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.131 \end{cases}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.131 \end{cases}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.131 \end{cases}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (60.15335pt too wide) in paragraph at lines 130--133
+[]$[]$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 \[
+        
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 134--134
+[][] 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.140 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.140 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.140 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Overfull \hbox (147.89189pt too wide) detected at line 140
+[][]\OMS/cmsy/m/n/10 ) [] \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/
+it/10 sin\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 \OT1/cmr/m/n/10 )
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 =
+        \frac{1}{2} g \cdot sin^{2}(\alpha)	\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.141 = \frac{1}{2}
+                    g \cdot sin^{2}(\alpha)	\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \over #2}
+                                               
+l.141 = \frac{1}{2}
+                    g \cdot sin^{2}(\alpha)	\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.142 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 141--142
+[]
+ []
+
+
+Overfull \hbox (39.81213pt too wide) in paragraph at lines 141--142
+[]$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143 h
+        = \left(
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.143 h = \left
+               (
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.146 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 143--146
+[]
+ []
+
+
+Overfull \hbox (66.87526pt too wide) in paragraph at lines 143--146
+[] \OMS/cmsy/m/n/10 ^^A
+ []
+
+
+Overfull \hbox (28.0968pt too wide) in paragraph at lines 143--146
+\OML/cmm/m/it/10 sin\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^L\OT1/cmr/m/n/10 )$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 =
+        \frac{1}{2}  g \cdot sin^{2}(\beta) t_2^{2}\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.147 = \frac{1}{2}
+                     g \cdot sin^{2}(\beta) t_2^{2}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \over #2}
+                                               
+l.147 = \frac{1}{2}
+                     g \cdot sin^{2}(\beta) t_2^{2}\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{cases}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 \end{cases}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.148 \end{cases}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.148 \end{cases}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.148 \end{cases}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.148 \end{cases}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 )
 ! Emergency stop.
@@ -2615,10 +3163,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 107--107
 
  
 Here is how much of TeX's memory you used:
- 25 strings out of 477908
- 511 string characters out of 5837077
- 1853330 words of memory out of 5000000
- 20276 multiletter control sequences out of 15000+600000
+ 26 strings out of 477908
+ 520 string characters out of 5837077
+ 1856330 words of memory out of 5000000
+ 20277 multiletter control sequences out of 15000+600000
  512633 words of font info for 33 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  19i,6n,13p,378b,68s stack positions out of 10000i,1000n,20000p,200000b,200000s
