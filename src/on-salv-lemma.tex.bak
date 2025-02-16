@@ -12,8 +12,11 @@ If a body falls freely along smooth planes inclined at any angle whatsoever, but
 \underline{\textit{Proof.}}
 
 Let \textit{ABC} be a rectangle triangle.\\
-$$
-\begin{tikzpicture}
+
+\begin{figure}[h!]
+    \centering
+    $$
+	\begin{tikzpicture}
 
     \tkzDefPoints{0/0/C, 4/0/B, 0/3/A}
     \tkzDefMidPoint(B,C) 
@@ -34,8 +37,12 @@ $$
     \tkzMarkAngle[size=0.6](A,E,C)
     \tkzLabelAngle[pos=1.2](A,E,C){$\beta$}
 
-\end{tikzpicture}
-$$
+	\end{tikzpicture}    
+    $$
+    \caption{Inclined plane}
+    \label{fig:triangle_ABC}
+\end{figure}
+
 
 Let us lay down :
 \[
@@ -67,8 +74,10 @@ h = x_2sin(\beta)
 As we know $  x_1 = \frac{1}{2}\cdot a_1\cdot t_1^{2}	$ where $ a_1 $ is the acceleration on the plane $ AB $, and $ t_1 $ the time required to travers it; and $ x_2 = \frac{1}{2}\cdot a_2\cdot t_2^{2} $. where $ a_2 $ the acceleration on the plane $ AE $, and $ t_2 $ the time required to travers that plane. \\
 
 Now :
-$$
-\begin{tikzpicture}
+\begin{figure}[h!]
+    \centering
+	$$
+	\begin{tikzpicture}
 
     \tkzDefPoints{0/0/C, 4/0/B, 0/3/A, 2/1.95/O}
     \tkzDefMidPoint(B,C) 
@@ -103,5 +112,8 @@ $$
 
     \node[draw, circle, minimum size=20pt] at (2, 1.95) {};
 
-\end{tikzpicture}
-$$
+	\end{tikzpicture}
+	$$
+    \caption{Falling body on the inclined plane}
+    \label{fig:triangle_ABC}
+\end{figure}

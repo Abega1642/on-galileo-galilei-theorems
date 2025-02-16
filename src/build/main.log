@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.2.12)  16 FEB 2025 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.2.12)  16 FEB 2025 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,7 +649,11 @@ ex
 2022/09/23 4.25c tkz-obj-eu-triangles.tex
 ))
 \c@theorem=\count298
- (build/main.aux (build/introduction.aux) (build/on-salv-lemma.aux))
+ (build/main.aux (build/introduction.aux) (build/on-salv-lemma.aux
+
+LaTeX Warning: Label `fig:triangle_ABC' multiply defined.
+
+))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -666,8 +670,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count299
 \scratchdimen=\dimen282
@@ -740,30 +743,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
-
 [3
 
 
 
-]) [4]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+) [4]
 No file main.bbl.
 (build/main.aux (build/introduction.aux) (build/on-salv-lemma.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 19038 strings out of 477908
- 419507 string characters out of 5837077
- 1861330 words of memory out of 5000000
- 38749 multiletter control sequences out of 15000+600000
+ 19039 strings out of 477908
+ 419525 string characters out of 5837077
+ 1860330 words of memory out of 5000000
+ 38750 multiletter control sequences out of 15000+600000
  520189 words of font info for 63 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 102i,7n,104p,1151b,999s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,10n,104p,1151b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -776,7 +782,7 @@ amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 >
-Output written on build/main.pdf (4 pages, 139795 bytes).
+Output written on build/main.pdf (4 pages, 140135 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
